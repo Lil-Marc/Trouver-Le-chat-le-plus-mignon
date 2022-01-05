@@ -1,6 +1,6 @@
 ## Background
 
-🥰 Le but de cet exercice est de développer une mini application web qui permet de trouver le chat le plus mignon🥰 
+🥰🐈 Le but de cet exercice est de développer une mini application web qui permet de trouver le chat le plus mignon.
 
 
 
@@ -59,7 +59,7 @@ Après le vote on peut appeler API /cat/getMostPopularCat pour le chat plus popu
 * Ajouter une fonction d'enregistrement et de connexion des utilisateurs, chaque utilisateur ne peut voter qu'une seule fois
 * Ajouter les dates de début et de fin de l'événement
 * Améliorer les performances simultanées pour résoudre le problème de l'accès multiple en ligne par
-  * Redis cahce
+  * Utiliser Nosql(Redis)
   * Plate-forme de messagerie et de streaming distribuée (RabbitMQ/RocketMQ)
 
 
