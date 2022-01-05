@@ -9,7 +9,7 @@
 ## Structure du projet
 
 * controller
-  * viewobject(Les données qui sont renvoyées directement au front-end, par exemple les mots de passe )
+  * viewobject(Les données qui sont renvoyées directement au front-end, par exemple les passwords ou des informations sensibles ne peut être transmis au front-end  mets pas dedans)
 * dao
 * dataobject(Converties directement à partir de la base de données)
 * error(Traitement des exceptions)
